@@ -2,8 +2,8 @@ class config:
     BOT_TOKEN = "1924840170:AAGcBl9JXj_EhjmTAtbD6tTFkXUTHfA9XMw"
     APP_ID = "2870743"
     API_HASH = "ae3b52c01ee412de9060742628296c88"
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    DATABASE_URL = "postgres://ucpzrfzw:KWxz5nh4SmTuXPAc3T8cGoijCJtOzfya@batyr.db.elephantsql.com/ucpzrfzw"
+    SUDO_USERS = "1420701422" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = ""
     G_DRIVE_CLIENT_SECRET = ""
