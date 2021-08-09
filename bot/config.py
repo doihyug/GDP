@@ -52,15 +52,17 @@ class Messages:
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
-    DOWNLOADED_SUCCESSFULLY = "📤 **▲ Uploading...
+    DOWNLOADED_SUCCESSFULLY = "▲ ** Uploading...
 
-**/n**Filename:** ```{}```\n**Size:** ```{}```"
+****Filename:** ```{}```\n**Size:** ```{}```"
     
     UPLOADED_SUCCESSFULLY = "✓ ** Uploaded Successfully!**\n[{}]({}) __({})__"
     
     DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
     
-    DOWNLOADING = "📥 **Downloading File...\nLink:** ```{}```"
+    DOWNLOADING = "▼ ** Downloading...
+
+****Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
     ALREADY_AUTH = "✓ **G-Drive Account Already Authorized.**\n__Use /revoke to revoke the current account.__\n__Send me a direct link or File to Upload on Google Drive__"
     
@@ -72,7 +74,9 @@ class Messages:
     
     AUTH_TEXT = "⛓️ **To Authorize your Google Drive account visit this [URL]({}) and send the generated code here.**\n__Visit the URL > Allow permissions > you will get a code > copy it > Send it here__"
     
-    DOWNLOAD_TG_FILE = "📥 **Downloading File...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
+    DOWNLOAD_TG_FILE = "▼ ** Downloading...
+
+****Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
     PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
     
