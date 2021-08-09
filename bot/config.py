@@ -1,5 +1,5 @@
 class config:
-    BOT_TOKEN = "1924840170:AAHJUfFlQSdLgaiQ6yj8SYIMnD_pcbQNIkw"
+    BOT_TOKEN = "1924840170:AAGqPrWRXn2_qC29O8KcDdplJthMRstF9eY"
     APP_ID = "2870743"
     API_HASH = "ae3b52c01ee412de9060742628296c88"
     DATABASE_URL = "postgres://ucpzrfzw:KWxz5nh4SmTuXPAc3T8cGoijCJtOzfya@batyr.db.elephantsql.com/ucpzrfzw"
@@ -60,7 +60,7 @@ class Messages:
     
     DOWNLOADING = "📥 **Downloading File...\nLink:** ```{}```"
     
-    ALREADY_AUTH = "🔒 **Already authorized your Google Drive Account.**\n__Use /revoke to revoke the current account.__\n__Send me a direct link or File to Upload on Google Drive__"
+    ALREADY_AUTH = "✓ **G-Drive Account Already Authorized.**\n__Use /revoke to revoke the current account.__\n__Send me a direct link or File to Upload on Google Drive__"
     
     FLOW_IS_NONE = f"❗ **Invalid Code**\n__Run {BotCommands.Authorize[0]} first.__"
     
