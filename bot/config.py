@@ -58,7 +58,8 @@ class Messages:
     
     DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
     
-    DOWNLOADING = "▼ **Downloading File...\nLink:** ```{}```"
+    DOWNLOADING = "▼ **Downloading File...
+Link:** ```{}```"
     
     ALREADY_AUTH = "✓ **G-Drive Account Already Authorized.**\n__Use /revoke to revoke the current account.__\n__Send me a direct link or File to Upload on Google Drive__"
     
@@ -70,7 +71,8 @@ class Messages:
     
     AUTH_TEXT = "⛓️ **To Authorize your Google Drive account visit this [URL]({}) and send the generated code here.**\n__Visit the URL > Allow permissions > you will get a code > copy it > Send it here__"
     
-    DOWNLOAD_TG_FILE = "▼ ** Downloading...****Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
+    DOWNLOAD_TG_FILE = "▼ ** Downloading...**
+**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
     PARENT_SET_SUCCESS = '✓ **Custom Folder link set successfully.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
     
