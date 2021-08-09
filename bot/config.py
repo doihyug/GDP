@@ -58,7 +58,7 @@ class Messages:
     
     DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
     
-    DOWNLOADING = "▼ ** Downloading...****Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
+    DOWNLOADING = "▼ **Downloading File...\nLink:** ```{}```"
     
     ALREADY_AUTH = "✓ **G-Drive Account Already Authorized.**\n__Use /revoke to revoke the current account.__\n__Send me a direct link or File to Upload on Google Drive__"
     
