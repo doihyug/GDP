@@ -13,3 +13,6 @@ google-auth-oauthlib
 youtube_dl
 ffmpeg
 tenacity
+lk21
+aiohttp
+beautifulsoup4
