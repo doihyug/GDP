@@ -16,3 +16,4 @@ tenacity
 lk21
 aiohttp
 beautifulsoup4
+pybase64
