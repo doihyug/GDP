@@ -1,6 +1,6 @@
 # Google Drive Uploader Telegram Bot
 **A Telegram bot to upload files from Telegram or Direct links to Google Drive.**
-- Find it on Telegram as [Google Drive Uploader](https://t.me/uploadgdrivebot)
+- Find it on Telegram as [Google Drive Uploader](https://t.me/gdriveruploadtd_bot)
 
 ## Features
 - [X] Telegram files support.
@@ -11,12 +11,8 @@
 - [X] Delete Google Drive Files.
 - [X] Empty Google Drive trash.
 - [X] youtube-dl support.
+- [X] Docker Supported
 
-## ToDo 
-- [ ] Handle more exceptions.
-- [ ] LOGGER support.
-- [ ] Service account support.
-- [ ] Update command.
 
 ### How To Deploy Video Tutorial:
 
@@ -76,7 +72,7 @@ python3 -m bot
 ```
 
 ### COMMANDS FOR THE BOT TO BE USED-
-
+```
 - start - useless command
 - help - How to use me
 - auth - Authorizing GDrive Account
@@ -84,7 +80,7 @@ python3 -m bot
 - copy - Copy GDrive Files
 - revoke - Revoke GDrive Account
 - del - Delete GDrive Files
-
+```
 ## Credits
 - [Dan](https://github.com/delivrance) for creating [PyroGram](https://pyrogram.org)
 - [Spechide](https://github.com/Spechide) for [gDriveDB.py](./bot/helpers/sql_helper/gDriveDB.py)
